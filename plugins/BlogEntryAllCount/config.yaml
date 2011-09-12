@@ -1,0 +1,12 @@
+name: BlogEntryAllCount
+id:   BlogEntryAllCount
+key:  blogentryallcount
+version: 0.1
+author_link: http://www.tinybeans.net/blog/
+author_name: Tomohiro Okuwaki
+doc_link: https://github.com/tinybeans/mt-plugin-BlogEntryAllCount
+l10n_class: BlogEntryAllCount::L10N
+description: <__trans phrase="Print the number of entries regardless of the status.">
+tags:
+    function:
+        BlogEntryAllCount: $BlogEntryAllCount::BlogEntryAllCount::Tags::_hdlr_blogentryallcount
